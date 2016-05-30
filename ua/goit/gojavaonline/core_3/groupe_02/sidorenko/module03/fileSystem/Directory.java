@@ -7,8 +7,8 @@ public class Directory extends File {
     private List<Directory> directories;
     private String name;
 
-    public boolean addFile(File file){
-        return files.add(file);
+    public void addFile(File file){
+        this.files.add(file);
     }
 
     public boolean addDirectory(Directory directory){
